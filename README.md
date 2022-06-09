@@ -2,10 +2,8 @@
 ### 리액트 프로젝트를 위한 스크립트 라이브러리입니다.
 ### Script library for React project
 
----
 ## 스크립트 문법
 ### Script Grammar
-
 `Example.json`
 ```json5
 {

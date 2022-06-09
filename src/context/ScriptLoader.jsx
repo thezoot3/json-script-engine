@@ -9,9 +9,9 @@ export const ScriptLoader = {
     Provider({script, children}) {
         const lang = useContext(this.scriptLangContext);
         if(script.lang.contains(lang)) {
-            this.script = script.content[lang];
+            this.script = script.script[lang];
         } else {
-            this.script = script.content[script.defaultLang];
+            this.script = script.script[script.defaultLang];
         }
         return (
             <this.context.Provider value={this.script}>
